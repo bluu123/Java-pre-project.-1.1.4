@@ -39,7 +39,11 @@
     <connection id="0a4f43a2-6937-4f7a-a5cc-9d49afd8ba50" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="0a4f43a2-6937-4f7a-a5cc-9d49afd8ba50" dataset="mysql.users" active-filter-id="" />
+    <filter-actions connection-id="0a4f43a2-6937-4f7a-a5cc-9d49afd8ba50" dataset="mysql.users" active-filter-id="EMPTY_FILTER">
+      <filter id="49223b25-09df-4f32-ad3c-7b13b861ca1b" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="0a4f43a2-6937-4f7a-a5cc-9d49afd8ba50" dataset="forproject.users" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
